@@ -1,0 +1,11 @@
+{
+  "name": "location-services-controller",
+  "version": "1.0.0",
+  "description": "Location Services Controller",
+  "main": "app.js",
+  "author": "gluxon",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "osascript": "1.2.x"
+  }
+}

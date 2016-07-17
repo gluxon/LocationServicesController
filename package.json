@@ -1,0 +1,29 @@
+{
+  "name": "location-services-controller",
+  "version": "1.0.0",
+  "description": "Location Services Controller",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron ./app",
+    "build": "gulp",
+    "clean": "rm -rf build",
+    "postinstall": "cd app && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gluxon/LocationServicesController"
+  },
+  "author": "gluxon",
+  "license": "MPL-2.0",
+  "homepage": "",
+  "dependencies": {
+    "electron-debug": "^1.0.1",
+    "osascript": "1.2.x"
+  },
+  "devDependencies": {
+    "devtron": "^1.2.1",
+    "electron-prebuilt": "^1.2.7",
+    "gulp": "^3.9.1",
+    "gulp-atom": "^0.1.0"
+  }
+}

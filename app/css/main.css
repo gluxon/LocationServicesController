@@ -1,0 +1,32 @@
+html, body {
+  margin: 0; padding: 0;
+  height: 100%;
+}
+
+fieldset {
+  border :none;
+  margin: 0; padding: 0;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+nav {
+  z-index: 1;
+  padding: 0.5em;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  background-color: rgba(255,255,255,0.8);
+}
+
+nav .gllpSearchField {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.gllpMap {
+  transform: none !important;
+  position: inherit !important;
+}
