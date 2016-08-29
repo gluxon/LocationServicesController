@@ -21,6 +21,9 @@ Once setup, all the user must do is search for a location and double click to up
 2. Updating your location in Xcode will not work when the application is fullscreened.
 
 ## Release Notes
+### 1.1 (2016 07-24)
+- Add copy/paste
+
 ### 1.0.0 (2016 07-16)
 - Project conception
 
